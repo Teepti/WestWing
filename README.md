@@ -10,15 +10,25 @@ This Script is dockerized with docker version 20.10.2 with WL2 settings.
 Download or clone whole repository on your system and go to directory which contains dockerfile using command prompt.
 After downloading or cloning, run below commands to create an docker image.
 
+# Command to clone this repository
+
+ "git clone https://github.com/Teepti/WestWing.git"
+ 
+# Run the below command using CMD 
+
+ "cd WestWing/WestwingRobotFramework/"
+ 
+ 
+
 # Command to create image:-
 
---------docker build "path of the directory which contains docker file"--------------
+"docker build ."
 
 After successfully build that image then use that Id to run that container.
 
 # Command to run created image
 
-docker run -ti "image id that is created above"
+docker run -ti "image id" that is created above"
 
 # Command to copy logs to out of container"
 
