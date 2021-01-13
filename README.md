@@ -10,7 +10,7 @@ This Script is dockerized with docker version 20.10.2 with WL2 settings.
 Download or clone whole repository on your system and go to directory which contains dockerfile using command prompt.
 After downloading or cloning, run below commands to create an docker image.
 
-# command to create image:-
+# Command to create image:-
 
 --------docker build "path of the directory which contains docker file"--------------
 
