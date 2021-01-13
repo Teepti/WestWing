@@ -64,5 +64,5 @@ RUN mkdir -p /usr/src/robotframework
 
 COPY ./pythonProject1/ /usr/src/robotframework
 
-CMD ["robot", "-d", "/usr/src/robotframework/Results" "/usr/src/robotframework/TestCase/Westwing.robot"]
+CMD ["robot", "-d","/usr/src/robotframework/Results", "/usr/src/robotframework/TestCase/Westwing.robot"]
 
